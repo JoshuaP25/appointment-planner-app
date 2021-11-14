@@ -1,0 +1,15 @@
+.appointment-form input, .appointment-form select {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    font-size: 1rem;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.appointment-form input:focus {
+    border: 3px solid #555;
+}
