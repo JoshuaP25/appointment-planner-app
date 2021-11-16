@@ -57,11 +57,10 @@ export const ContactsPage = ({ contacts, addContacts }) => {
   */
 
   return (
-    <div>
-      <section>
+    <div className="container">
+      <section className="form">
         <div className="form-title">
-          <h2>Add Contact <span>{duplicate ? "Name Already Exist" : ""}</span></h2>
-          
+          <h2>Add Contact</h2>
         </div>
         <ContactForm 
           name={inputName}
@@ -75,7 +74,7 @@ export const ContactsPage = ({ contacts, addContacts }) => {
         /> 
       </section>
       <hr />
-      <section>
+      <section className="tile">
         <h2>Contacts</h2>
         <TileList 
           tiles={contacts}

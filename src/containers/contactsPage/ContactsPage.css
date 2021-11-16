@@ -1,4 +1,30 @@
-span {
-    font-size: 14px;
-    color: red;
+.container {
+    display: flex;
+}
+
+.form {
+    width: 60%;
+}
+
+section.tile {
+    width: 100%;
+    margin-left: 30px;
+    border-left: 1px solid grey;
+    padding-left: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        display: block;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    section.tile {
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
 }

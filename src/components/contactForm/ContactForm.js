@@ -21,10 +21,11 @@ export const ContactForm = ({
           placeholder="Name"
           onChange={e => setName(e.target.value)}
         />
+        <span>{duplicate ? "Name Already Exist" : ""}</span>
         <input 
           value={phone}
           type="tel"
-          placeholder="Phone Number e.g. +639#########"
+          placeholder="Phone e.g. +639#########"
           pattern="^(09|\+639)\d{9}$"
           onChange={e => setPhone(e.target.value)}
         />

@@ -33,14 +33,14 @@ export const AppointmentForm = ({
         <input 
           value={date}
           type="date"
-          placeholder="Date"
+          placeholder="Select date"
           min={getTodayString()}
           onChange={e => setDate(e.target.value)}
         />
         <input 
           value={time}
           type="time"
-          placeholder="Time"
+          placeholder="Select time"
           onChange={e => setTime(e.target.value)}
         />
         <ContactPicker 

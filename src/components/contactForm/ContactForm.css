@@ -13,3 +13,9 @@
 .contact-form input:focus {
     border: 3px solid #555;
 }
+
+span {
+    font-size: 14px;
+    color: red;
+    display: block;
+}
